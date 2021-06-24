@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F6D741F2683935C00F1F1A2 /* app-icon-consistent-shape_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F6D741E2683935C00F1F1A2 /* app-icon-consistent-shape_2x.png */; };
+		6FB2FD152680FCEA00B7EB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD142680FCEA00B7EB97 /* AppDelegate.swift */; };
+		6FB2FD172680FCEA00B7EB97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD162680FCEA00B7EB97 /* SceneDelegate.swift */; };
+		6FB2FD1C2680FCEA00B7EB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2FD1A2680FCEA00B7EB97 /* Main.storyboard */; };
+		6FB2FD1E2680FCEF00B7EB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2FD1D2680FCEF00B7EB97 /* Assets.xcassets */; };
+		6FB2FD212680FCEF00B7EB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2FD1F2680FCEF00B7EB97 /* LaunchScreen.storyboard */; };
+		6FB2FD2C2680FCEF00B7EB97 /* GapAPPNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD2B2680FCEF00B7EB97 /* GapAPPNewTests.swift */; };
+		6FB2FD372680FCEF00B7EB97 /* GapAPPNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD362680FCEF00B7EB97 /* GapAPPNewUITests.swift */; };
+		6FB2FD4C2680FD4800B7EB97 /* Chapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD472680FD4800B7EB97 /* Chapters.swift */; };
+		6FB2FD4D2680FD4800B7EB97 /* Chapters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2FD482680FD4800B7EB97 /* Chapters.plist */; };
+		6FB2FD4E2680FD4800B7EB97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD492680FD4800B7EB97 /* User.swift */; };
+		6FB2FD4F2680FD4800B7EB97 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD4A2680FD4800B7EB97 /* UserLogin.swift */; };
+		6FB2FD502680FD4800B7EB97 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD4B2680FD4800B7EB97 /* Journal.swift */; };
+		6FB2FD5B2680FE0A00B7EB97 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD5A2680FE0A00B7EB97 /* DetailViewController.swift */; };
+		6FB2FD5D2680FE1900B7EB97 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD5C2680FE1900B7EB97 /* MasterTableViewController.swift */; };
+		6FB2FD5F2680FE2A00B7EB97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD5E2680FE2A00B7EB97 /* LoginViewController.swift */; };
+		6FB2FD612680FE3B00B7EB97 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD602680FE3B00B7EB97 /* AccountViewController.swift */; };
+		6FB2FD632680FE4800B7EB97 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD622680FE4800B7EB97 /* TableViewCell.swift */; };
+		6FB2FD6726810AF900B7EB97 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD6626810AF900B7EB97 /* Comment.swift */; };
+		6FB2FD6926810C8C00B7EB97 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD6826810C8C00B7EB97 /* CommentTableViewController.swift */; };
+		6FB2FD6B26810D5100B7EB97 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2FD6A26810D5100B7EB97 /* CommentTableViewCell.swift */; };
+		6FB2FD962682288400B7EB97 /* Gap_International_logo_301_rgb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6FB2FD952682288300B7EB97 /* Gap_International_logo_301_rgb.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FB2FD282680FCEF00B7EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB2FD092680FCEA00B7EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB2FD102680FCEA00B7EB97;
+			remoteInfo = GapAPPNew;
+		};
+		6FB2FD332680FCEF00B7EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB2FD092680FCEA00B7EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB2FD102680FCEA00B7EB97;
+			remoteInfo = GapAPPNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F6D741E2683935C00F1F1A2 /* app-icon-consistent-shape_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-consistent-shape_2x.png"; sourceTree = "<group>"; };
+		6FB2FD112680FCEA00B7EB97 /* GapAPPNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GapAPPNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB2FD142680FCEA00B7EB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FB2FD162680FCEA00B7EB97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FB2FD1B2680FCEA00B7EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FB2FD1D2680FCEF00B7EB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FB2FD202680FCEF00B7EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FB2FD222680FCEF00B7EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB2FD272680FCEF00B7EB97 /* GapAPPNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapAPPNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB2FD2B2680FCEF00B7EB97 /* GapAPPNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapAPPNewTests.swift; sourceTree = "<group>"; };
+		6FB2FD2D2680FCEF00B7EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB2FD322680FCEF00B7EB97 /* GapAPPNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapAPPNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB2FD362680FCEF00B7EB97 /* GapAPPNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapAPPNewUITests.swift; sourceTree = "<group>"; };
+		6FB2FD382680FCEF00B7EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB2FD472680FD4800B7EB97 /* Chapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapters.swift; sourceTree = "<group>"; };
+		6FB2FD482680FD4800B7EB97 /* Chapters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Chapters.plist; sourceTree = "<group>"; };
+		6FB2FD492680FD4800B7EB97 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6FB2FD4A2680FD4800B7EB97 /* UserLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		6FB2FD4B2680FD4800B7EB97 /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		6FB2FD5A2680FE0A00B7EB97 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6FB2FD5C2680FE1900B7EB97 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		6FB2FD5E2680FE2A00B7EB97 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6FB2FD602680FE3B00B7EB97 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		6FB2FD622680FE4800B7EB97 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6FB2FD6626810AF900B7EB97 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		6FB2FD6826810C8C00B7EB97 /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		6FB2FD6A26810D5100B7EB97 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		6FB2FD952682288300B7EB97 /* Gap_International_logo_301_rgb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gap_International_logo_301_rgb.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB2FD0E2680FCEA00B7EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB2FD242680FCEF00B7EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB2FD2F2680FCEF00B7EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB2FD082680FCEA00B7EB97 = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD132680FCEA00B7EB97 /* GapAPPNew */,
+				6FB2FD2A2680FCEF00B7EB97 /* GapAPPNewTests */,
+				6FB2FD352680FCEF00B7EB97 /* GapAPPNewUITests */,
+				6FB2FD122680FCEA00B7EB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FB2FD122680FCEA00B7EB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD112680FCEA00B7EB97 /* GapAPPNew.app */,
+				6FB2FD272680FCEF00B7EB97 /* GapAPPNewTests.xctest */,
+				6FB2FD322680FCEF00B7EB97 /* GapAPPNewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB2FD132680FCEA00B7EB97 /* GapAPPNew */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD592680FDF800B7EB97 /* Controllers */,
+				6FB2FD462680FD2300B7EB97 /* Views */,
+				6FB2FD442680FD0100B7EB97 /* Models */,
+				6FB2FD142680FCEA00B7EB97 /* AppDelegate.swift */,
+				6FB2FD162680FCEA00B7EB97 /* SceneDelegate.swift */,
+				6FB2FD1A2680FCEA00B7EB97 /* Main.storyboard */,
+				6FB2FD1D2680FCEF00B7EB97 /* Assets.xcassets */,
+				6F6D741E2683935C00F1F1A2 /* app-icon-consistent-shape_2x.png */,
+				6FB2FD1F2680FCEF00B7EB97 /* LaunchScreen.storyboard */,
+				6FB2FD222680FCEF00B7EB97 /* Info.plist */,
+			);
+			path = GapAPPNew;
+			sourceTree = "<group>";
+		};
+		6FB2FD2A2680FCEF00B7EB97 /* GapAPPNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD2B2680FCEF00B7EB97 /* GapAPPNewTests.swift */,
+				6FB2FD2D2680FCEF00B7EB97 /* Info.plist */,
+			);
+			path = GapAPPNewTests;
+			sourceTree = "<group>";
+		};
+		6FB2FD352680FCEF00B7EB97 /* GapAPPNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD362680FCEF00B7EB97 /* GapAPPNewUITests.swift */,
+				6FB2FD382680FCEF00B7EB97 /* Info.plist */,
+			);
+			path = GapAPPNewUITests;
+			sourceTree = "<group>";
+		};
+		6FB2FD442680FD0100B7EB97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD952682288300B7EB97 /* Gap_International_logo_301_rgb.jpeg */,
+				6FB2FD482680FD4800B7EB97 /* Chapters.plist */,
+				6FB2FD472680FD4800B7EB97 /* Chapters.swift */,
+				6FB2FD4B2680FD4800B7EB97 /* Journal.swift */,
+				6FB2FD492680FD4800B7EB97 /* User.swift */,
+				6FB2FD4A2680FD4800B7EB97 /* UserLogin.swift */,
+				6FB2FD6626810AF900B7EB97 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FB2FD462680FD2300B7EB97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD622680FE4800B7EB97 /* TableViewCell.swift */,
+				6FB2FD6A26810D5100B7EB97 /* CommentTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FB2FD592680FDF800B7EB97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2FD5A2680FE0A00B7EB97 /* DetailViewController.swift */,
+				6FB2FD5C2680FE1900B7EB97 /* MasterTableViewController.swift */,
+				6FB2FD5E2680FE2A00B7EB97 /* LoginViewController.swift */,
+				6FB2FD602680FE3B00B7EB97 /* AccountViewController.swift */,
+				6FB2FD6826810C8C00B7EB97 /* CommentTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FB2FD102680FCEA00B7EB97 /* GapAPPNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB2FD3B2680FCEF00B7EB97 /* Build configuration list for PBXNativeTarget "GapAPPNew" */;
+			buildPhases = (
+				6FB2FD0D2680FCEA00B7EB97 /* Sources */,
+				6FB2FD0E2680FCEA00B7EB97 /* Frameworks */,
+				6FB2FD0F2680FCEA00B7EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GapAPPNew;
+			productName = GapAPPNew;
+			productReference = 6FB2FD112680FCEA00B7EB97 /* GapAPPNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FB2FD262680FCEF00B7EB97 /* GapAPPNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB2FD3E2680FCEF00B7EB97 /* Build configuration list for PBXNativeTarget "GapAPPNewTests" */;
+			buildPhases = (
+				6FB2FD232680FCEF00B7EB97 /* Sources */,
+				6FB2FD242680FCEF00B7EB97 /* Frameworks */,
+				6FB2FD252680FCEF00B7EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB2FD292680FCEF00B7EB97 /* PBXTargetDependency */,
+			);
+			name = GapAPPNewTests;
+			productName = GapAPPNewTests;
+			productReference = 6FB2FD272680FCEF00B7EB97 /* GapAPPNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FB2FD312680FCEF00B7EB97 /* GapAPPNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB2FD412680FCEF00B7EB97 /* Build configuration list for PBXNativeTarget "GapAPPNewUITests" */;
+			buildPhases = (
+				6FB2FD2E2680FCEF00B7EB97 /* Sources */,
+				6FB2FD2F2680FCEF00B7EB97 /* Frameworks */,
+				6FB2FD302680FCEF00B7EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB2FD342680FCEF00B7EB97 /* PBXTargetDependency */,
+			);
+			name = GapAPPNewUITests;
+			productName = GapAPPNewUITests;
+			productReference = 6FB2FD322680FCEF00B7EB97 /* GapAPPNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FB2FD092680FCEA00B7EB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6FB2FD102680FCEA00B7EB97 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6FB2FD262680FCEF00B7EB97 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6FB2FD102680FCEA00B7EB97;
+					};
+					6FB2FD312680FCEF00B7EB97 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6FB2FD102680FCEA00B7EB97;
+					};
+				};
+			};
+			buildConfigurationList = 6FB2FD0C2680FCEA00B7EB97 /* Build configuration list for PBXProject "GapAPPNew" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FB2FD082680FCEA00B7EB97;
+			productRefGroup = 6FB2FD122680FCEA00B7EB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FB2FD102680FCEA00B7EB97 /* GapAPPNew */,
+				6FB2FD262680FCEF00B7EB97 /* GapAPPNewTests */,
+				6FB2FD312680FCEF00B7EB97 /* GapAPPNewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB2FD0F2680FCEA00B7EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6D741F2683935C00F1F1A2 /* app-icon-consistent-shape_2x.png in Resources */,
+				6FB2FD212680FCEF00B7EB97 /* LaunchScreen.storyboard in Resources */,
+				6FB2FD1E2680FCEF00B7EB97 /* Assets.xcassets in Resources */,
+				6FB2FD4D2680FD4800B7EB97 /* Chapters.plist in Resources */,
+				6FB2FD962682288400B7EB97 /* Gap_International_logo_301_rgb.jpeg in Resources */,
+				6FB2FD1C2680FCEA00B7EB97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB2FD252680FCEF00B7EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB2FD302680FCEF00B7EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FB2FD0D2680FCEA00B7EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB2FD5F2680FE2A00B7EB97 /* LoginViewController.swift in Sources */,
+				6FB2FD152680FCEA00B7EB97 /* AppDelegate.swift in Sources */,
+				6FB2FD4F2680FD4800B7EB97 /* UserLogin.swift in Sources */,
+				6FB2FD172680FCEA00B7EB97 /* SceneDelegate.swift in Sources */,
+				6FB2FD4E2680FD4800B7EB97 /* User.swift in Sources */,
+				6FB2FD502680FD4800B7EB97 /* Journal.swift in Sources */,
+				6FB2FD6B26810D5100B7EB97 /* CommentTableViewCell.swift in Sources */,
+				6FB2FD632680FE4800B7EB97 /* TableViewCell.swift in Sources */,
+				6FB2FD6926810C8C00B7EB97 /* CommentTableViewController.swift in Sources */,
+				6FB2FD6726810AF900B7EB97 /* Comment.swift in Sources */,
+				6FB2FD612680FE3B00B7EB97 /* AccountViewController.swift in Sources */,
+				6FB2FD5D2680FE1900B7EB97 /* MasterTableViewController.swift in Sources */,
+				6FB2FD4C2680FD4800B7EB97 /* Chapters.swift in Sources */,
+				6FB2FD5B2680FE0A00B7EB97 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB2FD232680FCEF00B7EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB2FD2C2680FCEF00B7EB97 /* GapAPPNewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB2FD2E2680FCEF00B7EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB2FD372680FCEF00B7EB97 /* GapAPPNewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FB2FD292680FCEF00B7EB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB2FD102680FCEA00B7EB97 /* GapAPPNew */;
+			targetProxy = 6FB2FD282680FCEF00B7EB97 /* PBXContainerItemProxy */;
+		};
+		6FB2FD342680FCEF00B7EB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB2FD102680FCEA00B7EB97 /* GapAPPNew */;
+			targetProxy = 6FB2FD332680FCEF00B7EB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FB2FD1A2680FCEA00B7EB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB2FD1B2680FCEA00B7EB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FB2FD1F2680FCEF00B7EB97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FB2FD202680FCEF00B7EB97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FB2FD392680FCEF00B7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FB2FD3A2680FCEF00B7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB2FD3C2680FCEF00B7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4GG6PDT54;
+				INFOPLIST_FILE = GapAPPNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.GapAPPNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FB2FD3D2680FCEF00B7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4GG6PDT54;
+				INFOPLIST_FILE = GapAPPNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.GapAPPNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FB2FD3F2680FCEF00B7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapAPPNewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.GapAPPNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapAPPNew.app/GapAPPNew";
+			};
+			name = Debug;
+		};
+		6FB2FD402680FCEF00B7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapAPPNewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.GapAPPNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapAPPNew.app/GapAPPNew";
+			};
+			name = Release;
+		};
+		6FB2FD422680FCEF00B7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapAPPNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.GapAPPNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GapAPPNew;
+			};
+			name = Debug;
+		};
+		6FB2FD432680FCEF00B7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GapAPPNewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.n.GapAPPNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GapAPPNew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FB2FD0C2680FCEA00B7EB97 /* Build configuration list for PBXProject "GapAPPNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB2FD392680FCEF00B7EB97 /* Debug */,
+				6FB2FD3A2680FCEF00B7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB2FD3B2680FCEF00B7EB97 /* Build configuration list for PBXNativeTarget "GapAPPNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB2FD3C2680FCEF00B7EB97 /* Debug */,
+				6FB2FD3D2680FCEF00B7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB2FD3E2680FCEF00B7EB97 /* Build configuration list for PBXNativeTarget "GapAPPNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB2FD3F2680FCEF00B7EB97 /* Debug */,
+				6FB2FD402680FCEF00B7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB2FD412680FCEF00B7EB97 /* Build configuration list for PBXNativeTarget "GapAPPNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB2FD422680FCEF00B7EB97 /* Debug */,
+				6FB2FD432680FCEF00B7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FB2FD092680FCEA00B7EB97 /* Project object */;
+}
